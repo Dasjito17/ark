@@ -1,0 +1,37 @@
+router 1
+Router(config-if)#
+Router(config-if)#
+Router(config-if)#exit
+Router(config)#interface FastEthernet0/0
+Router(config-if)#ip address 49.44.0.62 255.255.248.0
+Router#
+%SYS-5-CONFIG_I: Configured from console by consconfigure teenableenableip address 49.44.2.1 255.255.254.0
+
+
+
+Router(config-if)#interface FastEthernet0/1
+Router(config-if)#ip address 192.168.0.1 255.255.0.0
+
+
+
+router 2
+
+
+Router(config)#interface f0/0
+Router(config-if)#49.44.2.254 255.255.254.0
+
+Router(config)#interface f0/1
+Router(config-if)#ip address 192.168.0.2 255.255.0.0
+
+router 3
+
+
+Router(config)#interface FastEthernet0/0
+Router(configinterface FastEthernet0/0interface FastEtherinterface FastEthernet0/0interface FastEthernet0/0ip address 49.44.4.254 255.255.254.0
+
+
+router 4
+
+Router(config)#interface FastEthernet0/0
+Router(config-if)#ip address 49.44.6.254 255.255.254.0
+Router(config-if)#ip address 49.44.6.254 255.255.254.0
