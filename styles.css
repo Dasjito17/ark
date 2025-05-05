@@ -49,3 +49,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.dark-theme {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-theme a {
+    color: #8ab4f8;
+}
