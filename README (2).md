@@ -82,3 +82,17 @@ document.addEventListener("DOMContentLoaded", () => {
         header.style.backgroundColor = "";
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("toggleTheme");
+    const body = document.body;
+
+    toggleButton.addEventListener("click", () => {
+        body.classList.toggle("dark-theme");
+
+        if (body.classList.contains("dark-theme")) {
+            toggleButton.textContent = "Tema Claro";
+        } else {
+            toggleButton.textContent = "Tema Oscuro";
+        }
+    });
+});
