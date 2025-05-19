@@ -8,6 +8,24 @@
 
 <script src="script.js"></script>
 
+<style>
+.sinomacrops {
+    position: absolute;
+    top: 150px;
+    left: -200px;
+    width: 150px;
+    animation: volar 12s linear infinite;
+    z-index: 10;
+}
+
+@keyframes volar {
+    0% { left: -200px; transform: scaleX(1); }
+    50% { left: calc(100% + 200px); transform: scaleX(1); }
+    50.01% { transform: scaleX(-1); }
+    100% { left: -200px; transform: scaleX(-1); }
+}
+</style>
+
   </head>
 
 <body>
@@ -39,5 +57,6 @@
 </footer>
 <img src="C:\Users\2865686_alu.murciaed\Downloads\ark_bg1-1-1920x1080.jpg"  width="1000">
 
+<img src="sinomacrops.png" alt="Sinomacrops" class="sinomacrops" />
 
 </body></html>
